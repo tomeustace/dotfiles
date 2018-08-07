@@ -1,0 +1,58 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    {
+        "key": "oem_8 e",
+        "command": "workbench.action.toggleSidebarVisibility"
+    },
+    {
+        "key": "oem_8 f",
+        "command": "workbench.view.explorer"
+    },
+
+    {
+        "key": "oem_8 s",
+        "command": "workbench.view.search"
+    },
+    {
+        "key": "oem_8 j", 
+        "command": "workbench.action.navigateEditorGroups" 
+    },
+    {
+        "key": "oem_8 ;", 
+        "command": "workbench.action.splitEditor" 
+    },
+    {
+        "key": "oem_8 c", 
+        "command": "workbench.action.showCommands" 
+    },
+
+    // Terminal
+    {
+        "key": "oem_8 t",
+        "command": "workbench.action.terminal.toggleTerminal"
+    },
+    {
+        "key": "oem_8 n",
+        "command": "workbench.action.terminal.newInActiveWorkspace"
+    },
+    {
+        "key": "oem_8 k",
+        "command": "workbench.action.terminal.kill"
+    },
+    {
+        "key": "oem_8 1",
+        "command": "workbench.action.terminal.focusAtIndex1"
+    },
+    {
+        "key": "oem_8 2",
+        "command": "workbench.action.terminal.focusAtIndex2"
+    },
+    {
+        "key": "oem_8 3",
+        "command": "workbench.action.terminal.focusAtIndex3"
+    },
+    {
+        "key": "oem_8 4",
+        "command": "workbench.action.terminal.focusAtIndex4"
+    }
+]

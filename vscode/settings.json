@@ -1,0 +1,79 @@
+{
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    // vim bindings.
+    "vim.insertModeKeyBindings": [
+        {
+            "before": [
+                "j", "j"
+            ],
+            "after": [
+                "<esc>"
+            ]
+        },
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "leader", "w"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "command": "workbench.action.files.save",
+                    "args": []
+                }
+            ]
+        },
+        {
+            "before": [
+                "leader", "o"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "command": "workbench.action.quickOpen",
+                    "args": []
+                }
+            ]
+        },
+        {
+            "before": [
+                "leader", "s"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "command": "workbench.action.splitEditor",
+                    "args": []
+                }
+            ]
+        }
+    ],
+    "vim.easymotion": true,
+    "vim.easymotionMarkerFontSize": "26",
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,
+    "vim.hlsearch": true,
+    "vim.statusBarColorControl": true,
+    "vim.statusBarColors": {
+        "normal": [
+            "#8FBCBB",
+            "#434C5E"
+        ],
+        "insert": "#BF616A",
+        "visual": "#B48EAD",
+        "visualline": "#B48EAD",
+        "visualblock": "#A3BE8C",
+        "replace": "#D08770"
+    },
+    "vim.leader": " ",
+    "window.zoomLevel": 0,
+    "workbench.colorCustomizations": {
+        "statusBar.background": "#8FBCBB",
+        "statusBar.noFolderBackground": "#8FBCBB",
+        "statusBar.debuggingBackground": "#8FBCBB",
+        "statusBar.foreground": "#434C5E"
+    },
+    "workbench.colorTheme": "Monokai Dimmed"
+}
